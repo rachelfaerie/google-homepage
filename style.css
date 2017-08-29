@@ -1,0 +1,153 @@
+* {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    font-size: small;
+    margin: 0px;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0 12px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    border: 0px;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.main {
+    padding-top: 200px;
+    margin: auto;
+    width: 550px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left li {
+    margin: 0px 2px;
+}
+
+.right li {
+    margin: 0px 2px;
+}
+
+.button {
+    display: inline;
+    margin: 15px 3px;
+    color: #757575;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 0px 1px hsla(0, 0%, 75%, 1);
+    border-radius: 2px;
+    color: black;
+}
+
+.button:active {
+    box-shadow: 0px 0px 0px 1px #4684ee;
+}
+
+#signin {
+    padding: 7px 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: white;
+    background-color: #4684ee;
+}
+
+#signin:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 1px -1px gray;
+}
+
+#signin:active {
+    background-color: hsla(218, 83%, 50%, 1);
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#searchbox {
+    border: 1px;
+    border-color: gray;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#searchbox:hover {
+    box-shadow: 1px 1px 7px gray;
+}
+
+#header {
+    float: right;
+    color: #737373;
+    padding: 7px 20px;
+}
+
+#footer {
+    color: #6a6666;
+    border: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 2px;
+}
+
+#cube {
+    vertical-align: bottom;
+    height: 16px;
+    filter: opacity(60%);
+}
+
+#cube:hover {
+    filter: opacity(100%);
+}
+
+#mic {
+    position: relative;
+    left: -2%;
+    vertical-align: middle;
+    height: 20px;
+}
+
+#buttons {
+    max-width: 280px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
